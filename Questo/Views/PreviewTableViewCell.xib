@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PreviewTableViewCell" rowHeight="192" id="KGk-i7-Jjw" customClass="PreviewTableViewCell" customModule="Questo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9T-KP-edg">
+                        <rect key="frame" x="20" y="10" width="374" height="172"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgX-h7-gyn">
+                                <rect key="frame" x="10" y="10" width="354" height="94.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Government intervention advocates defend the use of ___________________________ in order to compensate for the flaws of the economic system that give way to large economic imbalances</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.1000000000000001" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecting more content will allow Questo to generate more cards for you to use." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSq-Sh-ieu">
+                                <rect key="frame" x="10" y="125.5" width="354" height="36.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36.5" id="lPt-bN-FxA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLS-Lk-t8k">
+                                <rect key="frame" x="10" y="114.5" width="354" height="1"/>
+                                <color key="backgroundColor" name="brownGrey"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="P5d-SE-oq9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fLS-Lk-t8k" secondAttribute="trailing" constant="10" id="1ng-T6-Voc"/>
+                            <constraint firstItem="sgX-h7-gyn" firstAttribute="leading" secondItem="b9T-KP-edg" secondAttribute="leading" constant="10" id="47d-SV-sIx"/>
+                            <constraint firstItem="sgX-h7-gyn" firstAttribute="top" secondItem="b9T-KP-edg" secondAttribute="top" constant="10" id="7Ki-RU-rtc"/>
+                            <constraint firstAttribute="trailing" secondItem="sgX-h7-gyn" secondAttribute="trailing" constant="10" id="ASn-c1-mcM"/>
+                            <constraint firstItem="WSq-Sh-ieu" firstAttribute="leading" secondItem="b9T-KP-edg" secondAttribute="leading" constant="10" id="JXG-u9-YyL"/>
+                            <constraint firstItem="fLS-Lk-t8k" firstAttribute="leading" secondItem="b9T-KP-edg" secondAttribute="leading" constant="10" id="NNM-KB-NyH"/>
+                            <constraint firstItem="fLS-Lk-t8k" firstAttribute="top" secondItem="sgX-h7-gyn" secondAttribute="bottom" constant="10" id="jjP-3w-rCZ"/>
+                            <constraint firstItem="WSq-Sh-ieu" firstAttribute="top" secondItem="fLS-Lk-t8k" secondAttribute="bottom" constant="10" id="mxv-vs-t1B"/>
+                            <constraint firstAttribute="trailing" secondItem="WSq-Sh-ieu" secondAttribute="trailing" constant="10" id="tCG-LG-2Rb"/>
+                            <constraint firstAttribute="bottom" secondItem="WSq-Sh-ieu" secondAttribute="bottom" constant="10" id="znf-bR-rPk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="b9T-KP-edg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2b0-N1-Hgo"/>
+                    <constraint firstAttribute="bottom" secondItem="b9T-KP-edg" secondAttribute="bottom" constant="10" id="5TN-f3-tOl"/>
+                    <constraint firstItem="b9T-KP-edg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Bzx-t9-VFk"/>
+                    <constraint firstAttribute="trailing" secondItem="b9T-KP-edg" secondAttribute="trailing" constant="20" id="cs6-9H-hSM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="answer" destination="WSq-Sh-ieu" id="9cF-WX-qaL"/>
+                <outlet property="containerView" destination="b9T-KP-edg" id="gLz-W8-l9q"/>
+                <outlet property="term" destination="sgX-h7-gyn" id="hfH-nP-xQe"/>
+            </connections>
+            <point key="canvasLocation" x="205.79710144927537" y="150.66964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="brownGrey">
+            <color red="0.60799998044967651" green="0.60799998044967651" blue="0.60799998044967651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

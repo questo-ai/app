@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadingView" customModule="Questo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generating Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwq-C2-2hG">
+                    <rect key="frame" x="123.5" y="738.5" width="167" height="26.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbM-cl-iCh">
+                    <rect key="frame" x="191" y="800" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="ACj-8i-lOY"/>
+                        <constraint firstAttribute="width" constant="32" id="u0k-EC-sUm"/>
+                    </constraints>
+                    <color key="tintColor" name="magenta"/>
+                    <state key="normal" title="Button" image="Close"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m3e-Br-jeS" customClass="AnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="44" width="414" height="657.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="animation-w800-h600"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please hold on while we try to analyse your text!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDF-Hw-QWy">
+                    <rect key="frame" x="52.5" y="773" width="309.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="m3e-Br-jeS" secondAttribute="trailing" id="12I-5Y-3fa"/>
+                <constraint firstItem="m3e-Br-jeS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="80y-bn-Y7R"/>
+                <constraint firstItem="jbM-cl-iCh" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="9G8-ny-4M9"/>
+                <constraint firstItem="bwq-C2-2hG" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Lxe-BS-zS5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="jbM-cl-iCh" secondAttribute="bottom" constant="30" id="Plr-VZ-yGk"/>
+                <constraint firstItem="m3e-Br-jeS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="SEK-Cf-2l0"/>
+                <constraint firstItem="vDF-Hw-QWy" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="aOV-Dv-dJh"/>
+                <constraint firstItem="vDF-Hw-QWy" firstAttribute="top" secondItem="bwq-C2-2hG" secondAttribute="bottom" constant="8" id="gWU-Kc-TSP"/>
+                <constraint firstItem="jbM-cl-iCh" firstAttribute="top" secondItem="vDF-Hw-QWy" secondAttribute="bottom" constant="10" id="qom-5I-KVS"/>
+                <constraint firstItem="bwq-C2-2hG" firstAttribute="top" secondItem="m3e-Br-jeS" secondAttribute="bottom" constant="37" id="qrI-GY-Mxr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="animationView" destination="m3e-Br-jeS" id="N7l-lW-AcV"/>
+                <outlet property="closeButton" destination="jbM-cl-iCh" id="QIc-mx-bAY"/>
+                <outlet property="label" destination="bwq-C2-2hG" id="7FP-J2-Qre"/>
+            </connections>
+            <point key="canvasLocation" x="-30" y="275"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Close" width="512" height="512"/>
+        <namedColor name="magenta">
+            <color red="0.80400002002716064" green="0.0" blue="0.67100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

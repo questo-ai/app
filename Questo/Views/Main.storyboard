@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="InitialViewController" customModule="Questo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2019 Questo AI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he0-qw-kuw">
+                                <rect key="frame" x="131.33333333333334" y="741" width="112.33333333333334" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.2588235438" green="0.27843138579999999" blue="0.27843138579999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Rz-Bh-Y7j" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="120" y="216.66666666666663" width="135" height="135"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4Rz-Bh-Y7j" secondAttribute="height" multiplier="1:1" id="AZM-eo-gLy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Rz-Bh-Y7j" secondAttribute="trailing" constant="120" id="Azk-km-78J"/>
+                            <constraint firstItem="4Rz-Bh-Y7j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.7" id="Mfv-ZQ-Her"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="he0-qw-kuw" secondAttribute="bottom" constant="20" id="Ne8-sq-JUe"/>
+                            <constraint firstItem="4Rz-Bh-Y7j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8n-yp-9s1"/>
+                            <constraint firstItem="he0-qw-kuw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nly-GT-rJl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="4Rz-Bh-Y7j" id="NM4-n3-cPm"/>
+                        <segue destination="FSa-MO-fxM" kind="presentation" identifier="login" customClass="Fade" customModule="Questo" customModuleProvider="target" modalPresentationStyle="overFullScreen" id="Lr2-bh-OG2"/>
+                        <segue destination="JFZ-eC-yUx" kind="presentation" identifier="fade" customClass="Fade" customModule="Questo" customModuleProvider="target" modalPresentationStyle="overFullScreen" id="pgC-ya-Rbd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="363.86806596701655"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="5gL-Nl-9Np">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Camera" id="JFZ-eC-yUx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xtz-PN-Whc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="133"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="We8-90-rMd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="FSa-MO-fxM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="prY-Do-71c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="512"/>
+        </scene>
+    </scenes>
+</document>

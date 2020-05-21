@@ -1,0 +1,242 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Answers (1.4.0):
+    - Fabric (~> 1.8.0)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - Eureka (5.0.0)
+  - Fabric (1.8.2)
+  - FBSDKCoreKit (5.0.0):
+    - FBSDKCoreKit/Basics (= 5.0.0)
+    - FBSDKCoreKit/Core (= 5.0.0)
+  - FBSDKCoreKit/Basics (5.0.0)
+  - FBSDKCoreKit/Core (5.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.0.0):
+    - FBSDKCoreKit (= 5.0.0)
+  - Firebase/Auth (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/Core (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.1)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Database (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.1)
+  - FirebaseAnalytics (5.8.1):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.8.0)"
+  - GoogleUtilities/Reachability (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.8.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.1)
+  - Instructions (1.3.1)
+  - Koloda (5.0):
+    - pop (~> 1.0)
+  - leveldb-library (1.20)
+  - lottie-ios (3.0.4)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.4.2)
+  - "ObjectMapper+Realm (0.6)":
+    - ObjectMapper
+    - RealmSwift
+  - pop (1.0.12)
+  - Realm (3.16.1):
+    - Realm/Headers (= 3.16.1)
+  - Realm/Headers (3.16.1)
+  - RealmSwift (3.16.1):
+    - Realm (= 3.16.1)
+  - SAConfettiView (0.1.8)
+  - SPAlert (1.0.1)
+  - SPStorkController (1.6.4)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Answers
+  - CocoaLumberjack/Swift
+  - Eureka
+  - Fabric
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - GoogleSignIn
+  - Instructions (~> 1.3.1)
+  - Koloda
+  - lottie-ios
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - "ObjectMapper+Realm"
+  - Realm (from `https://github.com/realm/realm-cocoa.git`, branch `tg/xcode-11-b1`)
+  - RealmSwift (from `https://github.com/realm/realm-cocoa.git`, branch `tg/xcode-11-b1`)
+  - SAConfettiView (from `https://github.com/taixhi/SAConfettiView.git`, commit `52f97decdec831c4d602c653e2237f3080ffce98`)
+  - SPAlert
+  - SPStorkController
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Answers
+    - CocoaLumberjack
+    - Eureka
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - Instructions
+    - Koloda
+    - leveldb-library
+    - lottie-ios
+    - nanopb
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - "ObjectMapper+Realm"
+    - pop
+    - SPAlert
+    - SPStorkController
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Realm:
+    :branch: tg/xcode-11-b1
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :branch: tg/xcode-11-b1
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  SAConfettiView:
+    :commit: 52f97decdec831c4d602c653e2237f3080ffce98
+    :git: https://github.com/taixhi/SAConfettiView.git
+
+CHECKOUT OPTIONS:
+  Realm:
+    :commit: 2e58dfe78e5f641262c4c5c7e5a13f05b434c610
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :commit: 2e58dfe78e5f641262c4c5c7e5a13f05b434c610
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  SAConfettiView:
+    :commit: 52f97decdec831c4d602c653e2237f3080ffce98
+    :git: https://github.com/taixhi/SAConfettiView.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Answers: e7317ccd30e7bf55c3bacfe28adbe2304b082e49
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  Fabric: d2b22f443ba195d8a7cc204da230977c72733b40
+  FBSDKCoreKit: ba361d4a9d4dc29ff218822b849b22d4f869c7bb
+  FBSDKLoginKit: c6d0dc187bd076e370dffa10f7fc8a3562a6892c
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Instructions: 192615408620838c442a526c4a2961ce3d42b6aa
+  Koloda: 75302d21882cc3e274c1561b1155805ea5919dab
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  lottie-ios: 55a2de40418f8de2b155efaba4d4d1a025a5c570
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  "ObjectMapper+Realm": 4cf44ed3202a73f08594e21e13eb3f8aa9b5a664
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Realm: 601cacc51d8be3b17a377ef787be0f6ee0e76cf1
+  RealmSwift: 486f2e09d5a8ccff63ed66e48d0846b111deb5e5
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SPAlert: 987a2a553824d80abf69d5a886c60b0bb6922ec8
+  SPStorkController: ac4121773c6f8768bb27fa4bb7ad178431356401
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: e011ca035fd1d00e7ac86be2b467be26475c4879
+
+COCOAPODS: 1.6.1

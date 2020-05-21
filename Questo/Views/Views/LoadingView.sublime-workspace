@@ -1,0 +1,441 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"texts〔variable〕"
+			],
+			[
+				"tot",
+				"total_score〔variable〕"
+			],
+			[
+				"dict",
+				"dictionary〔variable〕"
+			],
+			[
+				"next",
+				"next_character〔function〕"
+			],
+			[
+				"curre",
+				"current_column〔argument〕"
+			],
+			[
+				"word",
+				"word_candidates〔variable〕"
+			],
+			[
+				"requ",
+				"request_data"
+			],
+			[
+				"disp",
+				"display"
+			],
+			[
+				"margin",
+				"marginTop"
+			],
+			[
+				"selected",
+				"selectedItems"
+			],
+			[
+				"sele",
+				"selectedItems"
+			],
+			[
+				"handl",
+				"handleChange"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"user",
+				"userResponse"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"han",
+				"handleChange"
+			],
+			[
+				"handle",
+				"handleNext"
+			],
+			[
+				"Submit",
+				"SubmitButton"
+			],
+			[
+				"compon",
+				"componentDidMount"
+			],
+			[
+				"diagnost",
+				"diagnostic"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"questio",
+				"quizQuestions"
+			],
+			[
+				"quiz",
+				"quizQuestions"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"Search",
+				"SearchContainer"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: React: this.props"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"git",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"SUBLIME TEXT 3SUBLIME TEXT 2"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/taichikato/Downloads/booklist.xml",
+		"/Users/taichikato/Downloads/68575523 (1).xml",
+		"/Users/taichikato/Downloads/gatsby-contentful-starter-master/src/pages/blog.js",
+		"/Users/taichikato/Desktop/mentalModels.json",
+		"/Users/taichikato/Downloads/68575523.xml",
+		"/Users/taichikato/Desktop/questo.md",
+		"/Users/taichikato/Desktop/test.py",
+		"/Users/taichikato/Desktop/links.html",
+		"/Users/taichikato/Documents/Computer Science Interview",
+		"/Users/taichikato/Developer/SAConfettiView/Pod/Classes/SAConfettiView.swift",
+		"/Users/taichikato/Developer/questo-ios/Archive/Questo/Model/NetworkManager.swift",
+		"/Users/taichikato/Developer/questo-ios/Questo/Views/ViewControllers/Flashcard/FlashCardsViewController.swift",
+		"/Users/taichikato/Developer/YouAreRacist/main.py",
+		"/Users/taichikato/Downloads/history.json",
+		"/Users/taichikato/Downloads/profiledata.csv",
+		"/Users/taichikato/Desktop/yeet.csv",
+		"/Users/taichikato/Developer/questo-ios/fastlane/Fastfile",
+		"/Users/taichikato/Developer/primeFactors.py",
+		"/Users/taichikato/Developer/pseudocode",
+		"/Users/taichikato/Documents/yeet.csv",
+		"/Users/taichikato/Developer/wordblitz/generator.py",
+		"/Users/taichikato/Developer/questo-ios/.travis.yml",
+		"/Users/taichikato/Downloads/2421ac6541b68c1680f8-e9fe262498c65161f13838d9fd08f87f895a7644/radarDraw.js",
+		"/Users/taichikato/Downloads/2421ac6541b68c1680f8-e9fe262498c65161f13838d9fd08f87f895a7644/radar.js",
+		"/Users/taichikato/Downloads/2421ac6541b68c1680f8-e9fe262498c65161f13838d9fd08f87f895a7644/app.js",
+		"/Users/taichikato/Developer/BookWorm/ocr_interfacing.py",
+		"/Users/taichikato/Developer/BookWorm/server.py",
+		"/Users/taichikato/Downloads/test_shit/App.js",
+		"/Users/taichikato/Developer/openFrameworks/apps/myApps/BookWorm/addons.make",
+		"/Users/taichikato/Downloads/Fingers-Detection-using-OpenCV-and-Python-master/new.py",
+		"/Users/taichikato/Developer/yeet/app/ios/yeet/Models/Profile.swift",
+		"/Users/taichikato/Downloads/download (3)/icon.svg",
+		"/Users/taichikato/Downloads/perseus-configured/src/App.js",
+		"/Users/taichikato/Developer/website/src/utils/three.js",
+		"/Users/taichikato/Developer/yeet/app/ios/yeet/Others/Assets.xcassets/AppIcon.appiconset/Contents.json",
+		"/Users/taichikato/Developer/firestore-import-export/firestore-export.json",
+		"/Users/taichikato/Developer/firestore-import-export/firestore-export.beautified.json",
+		"/Users/taichikato/Developer/ideahacks18/docs/default-firebase-data.json",
+		"/Users/taichikato/Developer/firestore-import-export/firestore-export.beautified.beautified.json",
+		"/Users/taichikato/Developer/projectsaturn/client/webpack.config.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/index.html",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/CoursesOverviewContainer.js",
+		"/Users/taichikato/Downloads/perseus-configured/build/index.html",
+		"/Users/taichikato/Downloads/perseus-configured/src/index.js",
+		"/Users/taichikato/Downloads/perseus-configured/package.json",
+		"/Users/taichikato/Downloads/perseus-configured/build/static/js/main.5a93f2be.js",
+		"/Users/taichikato/Developer/projectsaturn/client/package.json",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/components/zoomable.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/components/sortable.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/perseus-api.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/question-paragraph.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/item-renderer.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/components/simple-keypad-input.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/perseus/renderer-demo.jsx",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Header.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/App.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Quiz.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/HomeContainer.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/ContentCard.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/auth.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/SubmitButton.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/css/style.css",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/SubjectCard.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/style/theme.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/CheckboxGrid.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/DiagnosticsContainer.js",
+		"/Users/taichikato/Developer/playcast_mvp/mm_working/Dockerfile",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/ShortTextInput.js",
+		"/Users/taichikato/Developer/playcast_mvp/mm_working/app/php/share_yt.php",
+		"/Users/taichikato/Developer/playcast_mvp/mm_working/app/php/client_secret.json",
+		"/Users/taichikato/Developer/hoverboard/data/resources.json",
+		"/Users/taichikato/Developer/hoverboard/data/settings.json",
+		"/Users/taichikato/Developer/hoverboard/docs/default-firebase-data.json",
+		"/Users/taichikato/Developer/projectsaturn/client/src/quiz.html",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/NewHeader.js",
+		"/Users/taichikato/Developer/projectsaturn/client/node_modules/@material-ui/core/umd/material-ui.development.js",
+		"/Users/taichikato/Developer/projectsaturn/firestore-client/firestore-export.json",
+		"/Users/taichikato/Developer/projectsaturn/firestore-client/firestore-export.beautified.json",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/OptionCard.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/ProgressIndicator.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/SearchContainer.js",
+		"/Users/taichikato/Library/Application Support/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/legacy/Question.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/legacy/QuestionCount.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/AppContainer.js",
+		"/Users/taichikato/Developer/projectsaturn/client/node_modules/@material-ui/core/es/Grid/Grid.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/StepSlider.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/css/quiz.css",
+		"/Users/taichikato/Developer/projectsaturn/client/dist/index.html",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Subtitle.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/QuizTypes/ShortText.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/QuizTypes/Slider.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/QuizTypes/Slider",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/QuizTypes/CheckboxGrid",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/QuizTypes/Cards.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/ShortText.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/ShortText",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/api/quiz.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Subtext.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Question.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Input.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/SignUpCard.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/presentational/Slider.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/legacy/Quiz.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/container/QuizContainer.js",
+		"/Users/taichikato/Developer/projectsaturn/client/src/js/components/legacy/Header.js",
+		"/Users/taichikato/Desktop/khan-academy-math.json",
+		"/Users/taichikato/Developer/learnsearch/client/src/index.html",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/container/SearchContainer.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/css/style.css",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/container/QuizContainer.js",
+		"/Users/taichikato/Developer/hoverboard/README.md",
+		"/Users/taichikato/Developer/learnsearch/client/src/css/quiz.css",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/api/quizQuestions.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/Quiz.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/Question.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/AnswerOption.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/Result.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/QuestionCount.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/container/AppContainer.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/App.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/QuestionAPI.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/Header.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/index.js",
+		"/Users/taichikato/Developer/learnsearch/client/webpack.config.js",
+		"/Users/taichikato/Developer/learnsearch/client/src/js/components/presentational/Input.js",
+		"/Users/taichikato/Developer/playcast_mvp/mm_working/homepage/index.html",
+		"/Users/taichikato/Developer/playcast_mvp/mm_working/app/homepage/index.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 148.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LoadingView.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"searchconta",
+				"src/js/components/container/SearchContainer.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

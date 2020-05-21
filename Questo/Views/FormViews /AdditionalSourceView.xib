@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdditionalSourceView" customModule="Questo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="93"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional source" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-5a-J34">
+                    <rect key="frame" x="20" y="10" width="132" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Km0-Va-bzt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecting more content will allow Questo to generate more cards for you to use." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J84-Em-DmP">
+                    <rect key="frame" x="20" y="33" width="402" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="QQS-Tm-IBS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="J84-Em-DmP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="AFb-qh-5cM"/>
+                <constraint firstItem="NdD-5a-J34" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="FMd-St-MFG"/>
+                <constraint firstItem="NdD-5a-J34" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="RBk-Ah-v2F"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="J84-Em-DmP" secondAttribute="trailing" constant="20" id="Znz-Fl-Q61"/>
+                <constraint firstItem="J84-Em-DmP" firstAttribute="top" secondItem="NdD-5a-J34" secondAttribute="bottom" constant="3" id="uhJ-OG-b0a"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="203.19999999999999" y="-112.89355322338831"/>
+        </view>
+    </objects>
+</document>
